@@ -1,4 +1,4 @@
-import { DefaultImgProxy } from "Const";
+//import { DefaultImgProxy } from "Const";
 import { ImgProxySettings } from "Hooks/useImgProxy";
 
 export interface UserPreferences {
@@ -98,7 +98,7 @@ export const DefaultPreferences = {
   showDebugMenus: true,
   autoShowLatest: false,
   fileUploader: "void.cat",
-  imgProxyConfig: DefaultImgProxy,
+  imgProxyConfig: null,
   defaultRootTab: "notes",
   defaultZapAmount: 50,
   autoZap: false,
